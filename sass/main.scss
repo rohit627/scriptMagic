@@ -1,0 +1,13 @@
+ul {
+    color: red;
+    list-style: none;
+    li {
+        color: blue;
+        display: inline;
+        padding-right: 15px;
+        cursor: pointer;
+        &:hover {
+            color: brown;
+        }
+    }
+}
